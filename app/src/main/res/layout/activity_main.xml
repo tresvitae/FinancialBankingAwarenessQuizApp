@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffef87"
+    tools:context="com.example.android.financialbankingawarenessquizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_horizontal"
+            android:text="@string/title"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:gravity="center_horizontal"
+            android:text="@string/title2"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/title3"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:contentDescription="Image shows money"
+            android:scaleType="centerCrop"
+            android:src="@drawable/money" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal|center"
+            android:text="@string/question1"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/q1_ans_true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/answer_true"
+                android:textAllCaps="true" />
+
+            <RadioButton
+                android:id="@+id/q1_ans_false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/answer_false"
+                android:textAllCaps="true" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal|center"
+            android:text="@string/question2"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q2_answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/under_your_mattress" />
+
+            <RadioButton
+                android:id="@+id/q2_answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stocks" />
+
+            <RadioButton
+                android:id="@+id/q2_answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bonds" />
+
+            <RadioButton
+                android:id="@+id/q2_answer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/savings_account" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal|center"
+            android:text="@string/question3"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q3_answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/suck_up" />
+
+            <RadioButton
+                android:id="@+id/q3_answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/second_job" />
+
+            <RadioButton
+                android:id="@+id/q3_answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/adjuct_your_tax" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal|center"
+            android:text="@string/question4"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q4_answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pay_bills" />
+
+            <RadioButton
+                android:id="@+id/q4_answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/limit_apps" />
+
+            <RadioButton
+                android:id="@+id/q4_answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sweet_talk" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal|center"
+            android:text="@string/question5"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q5_answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/treasury" />
+
+            <RadioButton
+                android:id="@+id/q5_answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/market_account" />
+
+            <RadioButton
+                android:id="@+id/q5_answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stocks" />
+
+            <RadioButton
+                android:id="@+id/q5_answer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/real_estate" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal|center"
+            android:text="@string/question6"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/q6_ans_ashley"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/ashley2"
+                android:text="@string/ashley"
+                android:textColor="#FFFF" />
+
+            <RadioButton
+                android:id="@+id/q6_ans_adam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/adam"
+                android:text="@string/adam" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal|center"
+            android:text="@string/question7"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q7_answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/traditional" />
+
+            <RadioButton
+                android:id="@+id/q7_answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/investments" />
+
+            <RadioButton
+                android:id="@+id/q7_answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/online" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal|center"
+            android:text="@string/question8"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q8_answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/commercials" />
+
+            <RadioButton
+                android:id="@+id/q8_answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/retail" />
+
+            <RadioButton
+                android:id="@+id/q8_answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/private_banks" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal|center"
+            android:text="@string/question9"
+            android:textColor="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/q9_answer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/wells" />
+
+            <CheckBox
+                android:id="@+id/q9_answer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/bank_of_china" />
+
+            <CheckBox
+                android:id="@+id/q9_answer3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/bank_of_america" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal|center"
+            android:text="@string/question10"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q10_answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/online_bank" />
+
+            <RadioButton
+                android:id="@+id/q10_answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/investment" />
+
+            <RadioButton
+                android:id="@+id/q10_answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/commercial" />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/black"
+            android:onClick="displayPoints"
+            android:text="@string/get_a_score"
+            android:textAllCaps="true"
+            android:textColor="#ffef87" />
+
+    </LinearLayout>
+
+</ScrollView>

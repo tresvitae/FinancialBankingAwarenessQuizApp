@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Financial&amp;BankingAwarenessQuizApp</string>
+    <string name="title">Wellcome in my Quiz!</string>
+    <string name="title2">We will check your knowladge of Financial and Banking Awareness!</string>
+    <string name="title3">So don\'t waste your time and let\'s start!</string>
+
+    <string name="question1">Investing in a load fund is more expensive, but performance is better than no-load funds over the long term.</string>
+    <string name="answer_true">true</string>
+    <string name="answer_false">false</string>
+
+    <string name="question2">You\'ve saved $25,000 for a down payment on a house. You plan to buy within a year.
+        Which of the following is the safest place to keep your money?</string>
+    <string name="under_your_mattress">Under your mattress</string>
+    <string name="stocks">Stocks</string>
+    <string name="bonds">Bonds</string>
+    <string name="savings_account">Bank savings account</string>
+
+    <string name="question3">What\'s the fastest and easiest way to boost your paycheck?</string>
+    <string name="suck_up">Suck up to the boss</string>
+    <string name="second_job">Get a second job</string>
+    <string name="adjuct_your_tax">Adjust your tax withholding</string>
+
+    <string name="question4">What will help most toward building a good credit history — or repairing a bad one?</string>
+    <string name="pay_bills">Pay bills on time and keep credit-cards balances low</string>
+    <string name="limit_apps">Limit applications for new credit and keep old accounts open</string>
+    <string name="sweet_talk">Sweet-talk the credit-card company phone rep</string>
+
+
+    <string name="question5">Which investment offers the highest growth potential for your long-term goals?</string>
+    <string name="treasury">Treasury bonds</string>
+    <string name="market_account">Money market account</string>
+    <string name="real_estate">Residential real estate</string>
+
+    <string name="question6">Ashley, age 20, contributes $3,000 per year to an individual retirement account for ten years, then stops,
+    letting her money sit in the account. Adam, age 30, contributes $3,000 each year to an IRA for 35 years.
+    Who will have more money at age 65, assuming they get identical investment returns?</string>
+    <string name="ashley">Ashley</string>
+    <string name="adam">Adam</string>
+
+    <string name="question7">Which financial institutions offer the best returns?</string>
+    <string name="traditional">Traditional banks</string>
+    <string name="investments">Investment banks</string>
+    <string name="online">Online banks</string>
+
+    <string name="question8">Wealth management services are offered by:</string>
+    <string name="commercials">Commercial banks</string>
+    <string name="retail">Retail banks</string>
+    <string name="private_banks">Private banks</string>
+
+    <string name="question9">The largest bank in the world in terms of capitalization <b>are not:</b></string>
+    <string name="wells">Wells Fargo</string>
+    <string name="bank_of_china">The Industrial and Commercial Bank of China</string>
+    <string name="bank_of_america">Bank of America</string>
+
+    <string name="question10">An example of a bank that raises capital for businesses is:</string>
+    <string name="online_bank">An online bank</string>
+    <string name="investment">An investment bank</string>
+    <string name="commercial">A commercial bank</string>
+
+    <string name="get_a_score">get a score</string>
+
+
+
+
+
+</resources>
