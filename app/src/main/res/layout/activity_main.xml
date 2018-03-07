@@ -44,7 +44,6 @@
             android:hint="@string/your_name2"
             android:inputType="textNoSuggestions|textCapWords" />
 
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -252,32 +251,50 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="15dp"
             android:gravity="center_horizontal|center"
-            android:text="@string/question6"
+            android:text="@string/question6partA"
             android:textColor="#000000" />
 
-        <RadioGroup
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <RadioButton
-                android:id="@+id/q6_ans_ashley"
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@drawable/ashley2"
-                android:text="@string/ashley"
-                android:textColor="#FFFF" />
+                android:src="@drawable/adam" />
 
-            <RadioButton
-                android:id="@+id/q6_ans_adam"
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@drawable/adam"
-                android:text="@string/adam" />
+                android:src="@drawable/ashley2" />
 
-        </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center_horizontal|center"
+                android:text="@string/question6partB"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/q6_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/type_answer"
+                android:inputType="textNoSuggestions|textCapWords" />
+
+        </LinearLayout>
 
         <TextView
             android:layout_width="match_parent"
