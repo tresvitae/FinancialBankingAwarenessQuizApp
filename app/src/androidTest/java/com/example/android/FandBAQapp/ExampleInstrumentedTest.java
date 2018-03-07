@@ -1,4 +1,4 @@
-package com.example.android.financialbankingawarenessquizapp;
+package com.example.android.FandBAQapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

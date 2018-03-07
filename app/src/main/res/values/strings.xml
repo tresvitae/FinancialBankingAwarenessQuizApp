@@ -2,7 +2,9 @@
     <string name="app_name">Financial&amp;BankingAwarenessQuizApp</string>
     <string name="title">Wellcome in my Quiz!</string>
     <string name="title2">We will check your knowladge of Financial and Banking Awareness!</string>
-    <string name="title3">So don\'t waste your time and let\'s start!</string>
+    <string name="your_name">Please enter your name: </string>
+    <string name="your_name2">Your name here</string>
+    <string name="lets_start">So don\'t waste your time and let\'s start!</string>
 
     <string name="question1">Investing in a load fund is more expensive, but performance is better than no-load funds over the long term.</string>
     <string name="answer_true">true</string>
@@ -58,9 +60,6 @@
     <string name="commercial">A commercial bank</string>
 
     <string name="get_a_score">get a score</string>
-
-
-
 
 
 </resources>

@@ -1,16 +1,16 @@
-package com.example.android.financialbankingawarenessquizapp;
+package com.example.android.FandBAQapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    int totalPoints;
     RadioButton question1Answer2;
     RadioButton question2Answer4;
     RadioButton question3Answer3;
@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     RadioButton question7Answer3;
     RadioButton question8Answer3;
     RadioButton question10Answer2;
+    private int totalPoints;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,12 +40,12 @@ public class MainActivity extends AppCompatActivity {
         question7Answer3 = findViewById(R.id.q7_answer3);
         question8Answer3 = findViewById(R.id.q8_answer3);
         question10Answer2 = findViewById(R.id.q10_answer2);
+
         /**
          * Implemented for readability.
          */
         CheckBox question9Answer2 = findViewById(R.id.q9_answer2);
         boolean hasQuestion9Answer2 = question9Answer2.isChecked();
-        Log.v("MainActivity", "Uncorrect q9Option1: " + hasQuestion9Answer2);
 
         /**
          * This code count questions if are true.
@@ -99,7 +100,13 @@ public class MainActivity extends AppCompatActivity {
         return totalPoints;
     }
 
-    public void displayPoints(View view) {
+    public void displayScore(View view) {
+        /**
+         * Input name for display.
+         */
+        EditText name = findViewById(R.id.your_name);
+        String enteredName = name.getText().toString();
+
         String message;
         int totalPoints = countPoints();
 
@@ -112,6 +119,6 @@ public class MainActivity extends AppCompatActivity {
         } else {
             message = "You are the best!";
         }
-        Toast.makeText(getApplicationContext(), "Your score is " + totalPoints + "! " + message, Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "Hello " + enteredName + "! Your score is " + totalPoints + ". " + message, Toast.LENGTH_SHORT).show();
     }
 }

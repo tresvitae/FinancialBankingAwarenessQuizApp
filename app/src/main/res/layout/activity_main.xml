@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffef87"
-    tools:context="com.example.android.financialbankingawarenessquizapp.MainActivity">
+    tools:context="com.example.android.FandBAQapp.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,8 +32,24 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="left"
+            android:text="@string/your_name"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/your_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/your_name2"
+            android:inputType="textNoSuggestions|textCapWords" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="@string/title3"
+            android:text="@string/lets_start"
             android:textSize="15sp" />
 
         <ImageView
@@ -416,7 +432,7 @@
             android:layout_marginBottom="5dp"
             android:layout_marginTop="15dp"
             android:background="@android:color/black"
-            android:onClick="displayPoints"
+            android:onClick="displayScore"
             android:text="@string/get_a_score"
             android:textAllCaps="true"
             android:textColor="#ffef87" />
